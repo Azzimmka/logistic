@@ -24,9 +24,6 @@
         </div>
     </div>
     
-    <h4>{{ hello }}</h4>
-    <h5>{% trans 'салам' %}</h5>
-
     
 
     <!-- slider Area End-->
@@ -105,6 +102,8 @@
                             <h5><a href="services.html">{{ city.country }}</a></h5>
                             <p>{{ city.discription }}</p>
                         </div>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">{{ city.created|timesince }} назад</h6>
+
                     </div>
                 </div>
                 {% endfor %}

@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from .models import Asia, Europe
-from django.utils.translation import gettext as _
 # Create your views here.
 
 
@@ -10,9 +9,19 @@ def base(request):
     context = {
         'country': country,
         'countries': countries,
-        'hello': _('Hello Azza')
     }
     return render(request, 'index.html', context)
 
 def about(request):
     return render(request, 'about.html')
+
+from django.shortcuts import render
+from .models import License
+
+from django.http import Http404
+
+def license_view(request):
+    license = License.objects.first()
+    if not license:
+        raise Http404("License not found")
+    return render(request, 'license.html', {'license': license})
