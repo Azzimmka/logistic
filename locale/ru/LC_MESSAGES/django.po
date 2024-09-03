@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 08:15-0700\n"
-"PO-Revision-Date: 2024-09-02 15:46+0000\n"
+"POT-Creation-Date: 2024-09-02 20:47-0700\n"
+"PO-Revision-Date: 2024-09-03 03:51+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,22 +19,141 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: app/models.py:6 app/models.py:25
+#: app/models.py:7 app/models.py:23
 msgid "country"
 msgstr "Страна"
 
-#: app/models.py:8 app/models.py:27
-msgid "discription"
+#: app/models.py:8 app/models.py:24
+msgid "description"
 msgstr "Описание"
 
-#: logistic/settings.py:117
+#: app/models.py:15
+msgid "Asian Country"
+msgstr "Страна Азия"
+
+#: app/models.py:16
+msgid "Asian Countries"
+msgstr "Страны Азии "
+
+#: app/models.py:29
+msgid "European Country"
+msgstr "Страны Европ "
+
+#: app/models.py:30
+msgid "European Countries"
+msgstr "Страны Европы"
+
+#: app/templates/base.html:72
+msgid "home"
+msgstr "Главная "
+
+#: app/templates/base.html:73
+msgid "about"
+msgstr "О Нас "
+
+#: app/templates/base.html:74
+msgid "services"
+msgstr "Услуги"
+
+#: app/templates/base.html:75
+msgid "contacts"
+msgstr "Контакты "
+
+#: app/templates/base.html:76
+msgid "license"
+msgstr "Лицензия "
+
+#: app/templates/base.html:82
+msgid "send message"
+msgstr "Отправить заявку "
+
+#: app/templates/base.html:117
+msgid "COMPANY footer"
+msgstr "Компания "
+
+#: app/templates/base.html:119
+msgid "about footer"
+msgstr "О нас"
+
+#: app/templates/base.html:120
+msgid "compny footer"
+msgstr "Компания "
+
+#: app/templates/base.html:121
+msgid "license footer"
+msgstr "Лицензия "
+
+#: app/templates/base.html:129
+msgid "hour footer"
+msgstr "Время роботы "
+
+#: app/templates/base.html:131
+msgid "monday footer"
+msgstr "Понедельник 9:00-18:00"
+
+#: app/templates/base.html:132
+msgid "tuesday-Friday footer"
+msgstr "Вторник-Пятница 9:00-18:00"
+
+#: app/templates/base.html:133
+msgid "saturday footer"
+msgstr "Суббота 9:00-18:00"
+
+#: app/templates/base.html:142
+msgid "RESOURCES"
+msgstr "Ресурсы "
+
+#: app/templates/base.html:144
+msgid "home footer"
+msgstr "Главная "
+
+#: app/templates/base.html:145
+#| msgid "about footer"
+msgid "home about footer"
+msgstr "О нас"
+
+#: app/templates/base.html:146
+#| msgid "services footer"
+msgid "home services footer"
+msgstr "Услуги"
+
+#: app/templates/base.html:147
+#| msgid "contacts footer"
+msgid "home contacts footer"
+msgstr "Контакты "
+
+#: app/templates/base.html:148
+#| msgid "license footer"
+msgid "home license footer"
+msgstr "Лицензия "
+
+#: app/templates/base.html:163
+msgid "obout logistic"
+msgstr ""
+"Наша компания обеспечивает эффективное управление цепочками поставок и "
+"адаптируется к изменениям на рынке, чтобы гарантировать своевременную "
+"доставку товаров и услуг."
+
+#: app/templates/index.html:16
+msgid "h1 n1"
+msgstr "Безопасные и Надежные"
+
+#: app/templates/index.html:16
+msgid "for blue logistic"
+msgstr "Логистические"
+
+#: app/templates/index.html:16
+msgid "h1 n2"
+msgstr "Решения"
+
+#: logistic/settings.py:119
 msgid "Russian"
 msgstr "русский"
 
-#: logistic/settings.py:118
+#: logistic/settings.py:120
 msgid "English"
 msgstr "английский"
 
-#: logistic/settings.py:119
+#: logistic/settings.py:121
 msgid "Uzbek"
 msgstr "узбекский"

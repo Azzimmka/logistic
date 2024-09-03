@@ -8,32 +8,153 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 08:15-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-09-02 20:47-0700\n"
+"PO-Revision-Date: 2024-09-03 03:50+0000\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: app/models.py:6 app/models.py:25
+#: app/models.py:7 app/models.py:23
 msgid "country"
-msgstr ""
+msgstr "Country"
 
-#: app/models.py:8 app/models.py:27
-msgid "discription"
-msgstr ""
+#: app/models.py:8 app/models.py:24
+msgid "description"
+msgstr "Discription"
 
-#: logistic/settings.py:117
+#: app/models.py:15
+msgid "Asian Country"
+msgstr "Asian Country"
+
+#: app/models.py:16
+msgid "Asian Countries"
+msgstr "Asian Countries"
+
+#: app/models.py:29
+msgid "European Country"
+msgstr "European Country"
+
+#: app/models.py:30
+msgid "European Countries"
+msgstr "European Countries"
+
+#: app/templates/base.html:72
+msgid "home"
+msgstr "home"
+
+#: app/templates/base.html:73
+msgid "about"
+msgstr "about us"
+
+#: app/templates/base.html:74
+msgid "services"
+msgstr "services"
+
+#: app/templates/base.html:75
+msgid "contacts"
+msgstr "contacts"
+
+#: app/templates/base.html:76
+msgid "license"
+msgstr "license"
+
+#: app/templates/base.html:82
+msgid "send message"
+msgstr "Leave a request"
+
+#: app/templates/base.html:117
+msgid "COMPANY footer"
+msgstr "COMPANY"
+
+#: app/templates/base.html:119
+msgid "about footer"
+msgstr "about us "
+
+#: app/templates/base.html:120
+msgid "compny footer"
+msgstr "compny"
+
+#: app/templates/base.html:121
+msgid "license footer"
+msgstr "license"
+
+#: app/templates/base.html:129
+msgid "hour footer"
+msgstr "OPEN HOUR "
+
+#: app/templates/base.html:131
+msgid "monday footer"
+msgstr "Monday 9:00 AM - 6:00 PM"
+
+#: app/templates/base.html:132
+msgid "tuesday-Friday footer"
+msgstr "Tuesday-Friday 9:00 AM - 6:00 PM"
+
+#: app/templates/base.html:133
+msgid "saturday footer"
+msgstr "Saturday 9:00 AM - 6:00 PM"
+
+#: app/templates/base.html:142
+msgid "RESOURCES"
+msgstr "RESOURCES"
+
+#: app/templates/base.html:144
+#| msgid "hour footer"
+msgid "home footer"
+msgstr "Home"
+
+#: app/templates/base.html:145
+#| msgid "about footer"
+msgid "home about footer"
+msgstr "about us "
+
+#: app/templates/base.html:146
+#| msgid "license footer"
+msgid "home services footer"
+msgstr "services "
+
+#: app/templates/base.html:147
+#| msgid "compny footer"
+msgid "home contacts footer"
+msgstr "contacts"
+
+#: app/templates/base.html:148
+#| msgid "license footer"
+msgid "home license footer"
+msgstr "license"
+
+#: app/templates/base.html:163
+#| msgid "for blue logistic"
+msgid "obout logistic"
+msgstr ""
+"Our company ensures efficient supply chain management and adapts to market "
+"changes to guarantee the timely delivery of goods and services."
+
+#: app/templates/index.html:16
+msgid "h1 n1"
+msgstr "Secure and Reliable "
+
+#: app/templates/index.html:16
+msgid "for blue logistic"
+msgstr " Logistic "
+
+#: app/templates/index.html:16
+msgid "h1 n2"
+msgstr "Solutions"
+
+#: logistic/settings.py:119
 msgid "Russian"
 msgstr "Russian"
 
-#: logistic/settings.py:118
+#: logistic/settings.py:120
 msgid "English"
 msgstr "English"
 
-#: logistic/settings.py:119
+#: logistic/settings.py:121
 msgid "Uzbek"
 msgstr "Uzbek"

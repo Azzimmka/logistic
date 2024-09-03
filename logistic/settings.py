@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'app',
 
     'rosetta',
+
+    'parler',
 ]
 
 MIDDLEWARE = [
@@ -118,7 +120,17 @@ LANGUAGES = [
     ('en', _('English')),
     ('uz', _('Uzbek')),
 ]
-
+PARLER_LANGUAGES = {
+     None: (
+         {'code': 'ru',},
+         {'code': 'en',},
+         {'code': 'uz',},
+     ),
+     'default': {
+         'fallbacks': ['ru', 'en', 'uz'],
+         'hide_untranslated': False,
+     }
+ }
 TIME_ZONE = 'UTC'
 
 USE_I18N = True

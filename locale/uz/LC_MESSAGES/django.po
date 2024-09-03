@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 08:15-0700\n"
-"PO-Revision-Date: 2024-09-02 15:48+0000\n"
+"POT-Creation-Date: 2024-09-02 20:47-0700\n"
+"PO-Revision-Date: 2024-09-03 03:52+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,22 +19,143 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: app/models.py:6 app/models.py:25
+#: app/models.py:7 app/models.py:23
 msgid "country"
 msgstr "Мamlakat"
 
-#: app/models.py:8 app/models.py:27
-msgid "discription"
+#: app/models.py:8 app/models.py:24
+msgid "description"
 msgstr "Тavsifi"
 
-#: logistic/settings.py:117
+#: app/models.py:15
+msgid "Asian Country"
+msgstr "Мamlakat"
+
+#: app/models.py:16
+msgid "Asian Countries"
+msgstr "Osiyo davlatlari"
+
+#: app/models.py:29
+msgid "European Country"
+msgstr "Evropa davlati"
+
+#: app/models.py:30
+msgid "European Countries"
+msgstr "Evropa davlatlari "
+
+#: app/templates/base.html:72
+msgid "home"
+msgstr "asosiy"
+
+#: app/templates/base.html:73
+msgid "about"
+msgstr "biz haqimizda"
+
+#: app/templates/base.html:74
+msgid "services"
+msgstr "xizmatlar"
+
+#: app/templates/base.html:75
+msgid "contacts"
+msgstr "kontaktlar"
+
+#: app/templates/base.html:76
+msgid "license"
+msgstr "litsenziya"
+
+#: app/templates/base.html:82
+msgid "send message"
+msgstr "xabar yuborish"
+
+#: app/templates/base.html:117
+msgid "COMPANY footer"
+msgstr "KOMPANIYA"
+
+#: app/templates/base.html:119
+msgid "about footer"
+msgstr "biz haqida"
+
+#: app/templates/base.html:120
+msgid "compny footer"
+msgstr "kompaniya "
+
+#: app/templates/base.html:121
+msgid "license footer"
+msgstr "litsenziya"
+
+#: app/templates/base.html:129
+msgid "hour footer"
+msgstr "ish vaqti"
+
+#: app/templates/base.html:131
+msgid "monday footer"
+msgstr "Dushanba 9:00-18:00"
+
+#: app/templates/base.html:132
+msgid "tuesday-Friday footer"
+msgstr "Seshanba-Juma 9:00-18:00"
+
+#: app/templates/base.html:133
+msgid "saturday footer"
+msgstr "Shanba 9:00-18:00"
+
+#: app/templates/base.html:142
+msgid "RESOURCES"
+msgstr "RESURSLAR"
+
+#: app/templates/base.html:144
+#| msgid "hour footer"
+msgid "home footer"
+msgstr "Asosiy "
+
+#: app/templates/base.html:145
+#| msgid "about footer"
+msgid "home about footer"
+msgstr "biz haqida"
+
+#: app/templates/base.html:146
+#| msgid "license footer"
+msgid "home services footer"
+msgstr "Xizmatlar "
+
+#: app/templates/base.html:147
+#| msgid "compny footer"
+msgid "home contacts footer"
+msgstr "Kontaktlar "
+
+#: app/templates/base.html:148
+#| msgid "license footer"
+msgid "home license footer"
+msgstr "litsenziya"
+
+#: app/templates/base.html:163
+#| msgid "for blue logistic"
+msgid "obout logistic"
+msgstr ""
+"Kompaniyamiz ta'minot zanjirlarini samarali boshqaradi va bozor "
+"o'zgarishlariga moslashadi, bu esa mahsulot va xizmatlarning o'z vaqtida "
+"yetkazib berilishini kafolatlaydi."
+
+#: app/templates/index.html:16
+msgid "h1 n1"
+msgstr "Xavfsiz va Ishonchli"
+
+#: app/templates/index.html:16
+msgid "for blue logistic"
+msgstr "Logistika"
+
+#: app/templates/index.html:16
+msgid "h1 n2"
+msgstr "Yechimlar"
+
+#: logistic/settings.py:119
 msgid "Russian"
 msgstr "Ruscha"
 
-#: logistic/settings.py:118
+#: logistic/settings.py:120
 msgid "English"
 msgstr "Anglischa"
 
-#: logistic/settings.py:119
+#: logistic/settings.py:121
 msgid "Uzbek"
 msgstr "Ozbekcha"

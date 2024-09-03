@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
-
 {% block main %}
 <main>
 
@@ -14,7 +13,7 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-9">
                             <div class="hero__caption text-left"> <!-- Убедитесь, что используется класс text-left -->
-                                <h1>Безопасные и Надежные <span>Логистические</span> Решения!</h1>
+                                <h1>{% trans 'h1 n1' %} <span>{% trans 'for blue logistic' %}</span> {% trans 'h1 n2' %}!</h1>
 
                             </div>
                         </div>
@@ -99,11 +98,9 @@
                         </div>
                         <br><br>
                         <div class="cat-cap">
-                            <h5><a href="services.html">{{ city.country }}</a></h5>
-                            <p>{{ city.discription }}</p>
+                            <h5><a href="#">{{ city.country }}</a></h5>
+                            <p>{{ city.description }}</p>
                         </div>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">{{ city.created|timesince }} назад</h6>
-
                     </div>
                 </div>
                 {% endfor %}
@@ -139,8 +136,8 @@
                         </div>
                         <br><br>
                         <div class="cat-cap">
-                            <h5><a href="services.html">{{ cities.country }}</a></h5>
-                            <p>{{ cities.discription }}</p>
+                            <h5><a href="#">{{ cities.country }}</a></h5>
+                            <p>{{ cities.description }}</p>
                         </div>
                     </div>
                 </div>

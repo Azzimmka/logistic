@@ -1,7 +1,8 @@
 from django.contrib import admin
-from .models import Asia, Europe, License
+from parler.admin import TranslatableAdmin
+from .models import *
 # Register your models here.
 
-admin.site.register(Asia)
-admin.site.register(Europe)
+admin.site.register(Asia, TranslatableAdmin)
+admin.site.register(Europe, TranslatableAdmin)
 admin.site.register(License)

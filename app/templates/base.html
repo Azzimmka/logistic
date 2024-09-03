@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
@@ -68,17 +69,17 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">                                                                                          
-                                            <li><a href="{% url 'base' %}">Главная</a></li>
-                                            <li><a href="{% url 'about' %}">О нас</a></li>
-                                            <li><a href="services.html">Услуги</a></li>                            
-                                            <li><a href="contact.html">Контакты</a></li>
-                                            <li><a href="{% url 'license' %}">Лицензия</a></li>
+                                            <li><a href="{% url 'base' %}">{% trans 'home' %}</a></li>
+                                            <li><a href="{% url 'about' %}">{% trans 'about' %}</a></li>
+                                            <li><a href="services.html">{% trans 'services' %}</a></li>                            
+                                            <li><a href="contact.html">{% trans 'contacts' %}</a></li>
+                                            <li><a href="{% url 'license' %}">{% trans 'license' %}</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <!-- Header-btn -->
                                 <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="testimonial-form text-center" class="btn header-btn">Оставить заявку</a>
+                                    <a href="testimonial-form text-center" class="btn header-btn">{% trans 'send message' %}</a>
                                 </div>
                             </div>
                         </div> 
@@ -113,11 +114,11 @@
                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>COMPANY</h4>
+                                <h4>{% trans 'COMPANY footer' %}</h4>
                                 <ul>
-                                    <li><a href="{% url 'about' %}">О Нас </a></li>
-                                    <li><a href="{% url 'about' %}">Компания</a></li>
-                                    <li><a href="{% url 'license' %}">Лицензия</a></li>
+                                    <li><a href="{% url 'about' %}">{% trans 'about footer' %}</a></li>
+                                    <li><a href="{% url 'about' %}">{% trans 'compny footer' %}</a></li>
+                                    <li><a href="{% url 'license' %}">{% trans 'license footer' %}</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -125,12 +126,11 @@
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Open hour</h4>
+                                <h4>{% trans 'hour footer' %}</h4>
                                 <ul>
-                                    <li><a href="#">Понедельник 9:00-18:00</a></li>
-                                    <li><a href="#">Вторник-Пятница 9:00-18:00</a></li>
-                                    <li><a href="#">Суббота 9:00-18:00</a></li>
-                                    <li><a href="#">Воскресенье 9:00-18:00</a></li>
+                                    <li><a href="#">{% trans 'monday footer' %}</a></li>
+                                    <li><a href="#">{% trans 'tuesday-Friday footer' %}</a></li>
+                                    <li><a href="#">{% trans 'saturday footer' %}</a></li>
                                     
                                 </ul>
                             </div>
@@ -139,13 +139,13 @@
                     <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>RESOURCES</h4>
+                                <h4>{% trans 'RESOURCES' %}</h4>
                                 <ul>
-                                    <li><a href="{% url 'base' %}">Главная</a></li>
-                                    <li><a href="{% url 'about' %}">О Нас</a></li>
-                                    <li><a href="#">Услуги</a></li>
-                                    <li><a href="#">Контакты</a></li>
-                                    <li><a href="{% url 'license' %}">Лицензия</a></li>
+                                    <li><a href="{% url 'base' %}">{% trans 'home footer' %}</a></li>
+                                    <li><a href="{% url 'about' %}">{% trans 'home about footer' %}</a></li>
+                                    <li><a href="#">{% trans 'home services footer' %}</a></li>
+                                    <li><a href="#">{% trans 'home contacts footer' %}</a></li>
+                                    <li><a href="{% url 'license' %}">{% trans 'home license footer' %}</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                             <div class="footer-tittle">
                                 <div class="footer-pera">
                                     <p class="info1">
-                                        Наша компания обеспечивает эффективное управление цепочками поставок и адаптируется к изменениям на рынке, чтобы гарантировать своевременную доставку товаров и услуг.
+                                        {% trans 'obout logistic' %}
                                     </p>
                                     
                                 </div>
