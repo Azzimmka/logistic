@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 20:47-0700\n"
-"PO-Revision-Date: 2024-09-03 03:51+0000\n"
+"POT-Creation-Date: 2024-09-03 03:05-0700\n"
+"PO-Revision-Date: 2024-09-03 10:06+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -43,96 +43,207 @@ msgstr "Страны Европ "
 msgid "European Countries"
 msgstr "Страны Европы"
 
-#: app/templates/base.html:72
+#: app/templates/about.html:13
+msgid "About.html"
+msgstr "О Нас"
+
+#: app/templates/base.html:84
 msgid "home"
 msgstr "Главная "
 
-#: app/templates/base.html:73
+#: app/templates/base.html:85
 msgid "about"
 msgstr "О Нас "
 
-#: app/templates/base.html:74
+#: app/templates/base.html:86
 msgid "services"
 msgstr "Услуги"
 
-#: app/templates/base.html:75
+#: app/templates/base.html:87
 msgid "contacts"
 msgstr "Контакты "
 
-#: app/templates/base.html:76
+#: app/templates/base.html:88
 msgid "license"
 msgstr "Лицензия "
 
-#: app/templates/base.html:82
+#: app/templates/base.html:106
 msgid "send message"
 msgstr "Отправить заявку "
 
-#: app/templates/base.html:117
-msgid "COMPANY footer"
-msgstr "Компания "
-
-#: app/templates/base.html:119
+#: app/templates/base.html:159
 msgid "about footer"
 msgstr "О нас"
 
-#: app/templates/base.html:120
+#: app/templates/base.html:160
 msgid "compny footer"
 msgstr "Компания "
 
-#: app/templates/base.html:121
+#: app/templates/base.html:161
 msgid "license footer"
 msgstr "Лицензия "
 
-#: app/templates/base.html:129
+#: app/templates/base.html:169
 msgid "hour footer"
 msgstr "Время роботы "
 
-#: app/templates/base.html:131
+#: app/templates/base.html:171
 msgid "monday footer"
 msgstr "Понедельник 9:00-18:00"
 
-#: app/templates/base.html:132
+#: app/templates/base.html:172
 msgid "tuesday-Friday footer"
 msgstr "Вторник-Пятница 9:00-18:00"
 
-#: app/templates/base.html:133
+#: app/templates/base.html:173
 msgid "saturday footer"
 msgstr "Суббота 9:00-18:00"
 
-#: app/templates/base.html:142
+#: app/templates/base.html:182
 msgid "RESOURCES"
 msgstr "Ресурсы "
 
-#: app/templates/base.html:144
+#: app/templates/base.html:184
 msgid "home footer"
 msgstr "Главная "
 
-#: app/templates/base.html:145
-#| msgid "about footer"
+#: app/templates/base.html:185
 msgid "home about footer"
 msgstr "О нас"
 
-#: app/templates/base.html:146
-#| msgid "services footer"
+#: app/templates/base.html:186
 msgid "home services footer"
 msgstr "Услуги"
 
-#: app/templates/base.html:147
-#| msgid "contacts footer"
+#: app/templates/base.html:187
 msgid "home contacts footer"
 msgstr "Контакты "
 
-#: app/templates/base.html:148
-#| msgid "license footer"
+#: app/templates/base.html:188
 msgid "home license footer"
 msgstr "Лицензия "
 
-#: app/templates/base.html:163
+#: app/templates/base.html:203
 msgid "obout logistic"
 msgstr ""
 "Наша компания обеспечивает эффективное управление цепочками поставок и "
 "адаптируется к изменениям на рынке, чтобы гарантировать своевременную "
 "доставку товаров и услуг."
+
+#: app/templates/contacts.html:9
+msgid "Contact Us"
+msgstr "Контакты "
+
+#: app/templates/contacts.html:15
+msgid "Phone"
+msgstr "Номер телефон"
+
+#: app/templates/contacts.html:21
+msgid "Working Hours"
+msgstr "Время роботы "
+
+#: app/templates/contacts.html:22 app/templates/index.html:51
+msgid "Mon - Sat 9:00 AM - 6:00 PM"
+msgstr "Пн - Сб 9.00 - 18.00"
+
+#: app/templates/contacts.html:27
+msgid "Address"
+msgstr "Адрес "
+
+#: app/templates/contacts.html:29 app/templates/index.html:62
+msgid "Bukhara Region, Bukhara District, Mahalla Do'stlik, Buyuk Ipak Yo'li"
+msgstr "Бухарская область, Бухарский район, махалля Дустлик, улица Буюк Ипак"
+
+#: app/templates/includes/about_section.html:12
+msgid "About our company"
+msgstr "О нашей компании"
+
+#: app/templates/includes/about_section.html:13
+msgid "Safe logistics and transport solutions."
+msgstr "Безопасные логистические и транспортные решения."
+
+#: app/templates/includes/about_section.html:15
+msgid "about 1"
+msgstr ""
+"Наша компания была основана 28 октября 2020 года и за это время "
+"зарекомендовала себя как надежный партнер в сфере грузоперевозок. Мы "
+"гордимся тем, что имеем более 20 современных грузовых автомобилей, полностью"
+" соответствующих стандартам качества и безопасности."
+
+#: app/templates/includes/about_section.html:16
+msgid "about 2"
+msgstr ""
+"Наши машины оснащены передовыми технологиями, что позволяет нам обеспечивать"
+" высокую надежность и эффективность доставки."
+
+#: app/templates/includes/about_section.html:17
+msgid "Find out more about us"
+msgstr "Узнайте больше о нас"
+
+#: app/templates/includes/services_country.html:9
+#: app/templates/includes/services_country.html:47
+msgid "Our services"
+msgstr "Наши услуги"
+
+#: app/templates/includes/services_country.html:10
+msgid "Asia"
+msgstr "Азия"
+
+#: app/templates/includes/services_country.html:48
+msgid "Europe"
+msgstr "Европа"
+
+#: app/templates/includes/testiminal.html:9
+msgid "Customer Reviews"
+msgstr "Отзывы наших клиентов"
+
+#: app/templates/includes/testiminal.html:10
+msgid "What Our Clients Say!"
+msgstr "Что говорят наши клиенты!"
+
+#: app/templates/includes/testiminal.html:18
+msgid ""
+"Excellent service! We were pleasantly surprised by the quality of work and "
+"attention to detail. Your specialists demonstrated a high level of "
+"professionalism and efficiency. Highly recommended!"
+msgstr ""
+"Отличный сервис! Мы были приятно удивлены качеством работы и вниманием к "
+"деталям. Ваши специалисты продемонстрировали высокий уровень "
+"профессионализма и эффективности. Рекомендуем!"
+
+#: app/templates/includes/testiminal.html:25
+msgid "Ivan Petrov"
+msgstr "Иван Петров"
+
+#: app/templates/includes/testiminal.html:26
+msgid "Logistics Director"
+msgstr "Директор по логистике"
+
+#: app/templates/includes/testiminal.html:36
+msgid ""
+"Our experience working with your company has been exceptionally positive. "
+"All shipments were completed on time and without issues. Great team, well "
+"done!"
+msgstr ""
+"Наш опыт работы с вашей компанией был исключительно положительным. Все "
+"грузоперевозки были выполнены вовремя и без проблем. Отличная команда, "
+"молодцы!"
+
+#: app/templates/includes/testiminal.html:41
+msgid "Maria Kuznetsova"
+msgstr "Мария Кузнецова"
+
+#: app/templates/includes/testiminal.html:42
+msgid "Procurement Manager"
+msgstr "Менеджер по закупкам"
+
+#: app/templates/includes/testiminal.html:52
+msgid "We are always ready to listen and understand your needs."
+msgstr "Мы всегда готовы выслушать и понять ваши потребности."
+
+#: app/templates/includes/testiminal.html:55
+msgid "Submit"
+msgstr "Отправить "
 
 #: app/templates/index.html:16
 msgid "h1 n1"
@@ -146,14 +257,110 @@ msgstr "Логистические"
 msgid "h1 n2"
 msgstr "Решения"
 
-#: logistic/settings.py:119
+#: app/templates/index.html:39
+msgid "Call us"
+msgstr "Позвоните нам"
+
+#: app/templates/index.html:50
+msgid "Open Hour"
+msgstr "Рабочие  время"
+
+#: app/templates/index.html:61
+msgid "Adderss"
+msgstr "Адрес "
+
+#: app/templates/license.html:5
+msgid "License to provide logistics services"
+msgstr "Лицензия на предоставление логистических услуг"
+
+#: app/templates/license.html:9
+msgid "License document"
+msgstr "Лицензионный документ"
+
+#: app/templates/license.html:13
+msgid ""
+"In this section, you can view or download a PDF of your company's license. "
+"We care about transparency and provide all the necessary documents for your "
+"confidence in our activities."
+msgstr ""
+"   В этом разделе вы можете просмотреть или загрузить PDF-файл лицензии "
+"вашей компании. Мы заботимся о прозрачности и предоставляем все необходимые "
+"документы для вашей уверенности в нашей деятельности."
+
+#: app/templates/license.html:21
+msgid "Download PDF licenses"
+msgstr "Скачать PDF лицензии"
+
+#: app/templates/services.html:13
+msgid "Our servicess"
+msgstr "Наши услуги"
+
+#: app/templates/services.html:14
+msgid "Logistics company"
+msgstr "Логистическая компания"
+
+#: app/templates/services.html:27
+msgid "About our companyy"
+msgstr "О нашей компании"
+
+#: app/templates/services.html:28
+msgid "text"
+msgstr ""
+" Наша логистическая компания предоставляет широкий спектр услуг, включая "
+"международные и внутренние перевозки, таможенное оформление, складирование и"
+" управление цепочками поставок. Мы гарантируем надежность и своевременность "
+"доставки ваших грузов по всему миру."
+
+#: app/templates/services.html:37
+msgid "Our Advantages"
+msgstr "Наши преимущества"
+
+#: app/templates/services.html:39
+msgid "Customer Support"
+msgstr "Поддержка клиентов"
+
+#: app/templates/services.html:40
+msgid "Global Network of Partners"
+msgstr "Глобальная сеть партнеров"
+
+#: app/templates/services.html:41
+msgid "Competitive Rates"
+msgstr "Конкурентоспособные тарифы"
+
+#: app/templates/services.html:42
+msgid "Timely Delivery"
+msgstr "Своевременная доставка"
+
+#: app/templates/services.html:43
+msgid "Flexibility and Personalized Approach"
+msgstr "Гибкость и индивидуальный подход"
+
+#: logistic/settings.py:120
 msgid "Russian"
 msgstr "русский"
 
-#: logistic/settings.py:120
+#: logistic/settings.py:121
 msgid "English"
 msgstr "английский"
 
-#: logistic/settings.py:121
+#: logistic/settings.py:122
 msgid "Uzbek"
 msgstr "узбекский"
+
+#~ msgid "language"
+#~ msgstr "Выбрать язык"
+
+#, fuzzy
+#~ msgid "About Us"
+#~ msgstr ""
+#~ "Наша компания была основана 28 октября 2020 года и за это время "
+#~ "зарекомендовала себя как надежный партнер в сфере грузоперевозок. Мы "
+#~ "гордимся тем, что имеем более 20 современных грузовых автомобилей, полностью"
+#~ " соответствующих стандартам качества и безопасности."
+
+#, fuzzy
+#~ msgid "Bukhara Region, Bukhara District, Mahalla Do"
+#~ msgstr "Бухарская область, Бухарский район, махалля Дустлик, улица Буюк Ипак"
+
+#~ msgid "COMPANY footer"
+#~ msgstr "Компания "

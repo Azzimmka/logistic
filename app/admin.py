@@ -3,6 +3,11 @@ from parler.admin import TranslatableAdmin
 from .models import *
 # Register your models here.
 
-admin.site.register(Asia, TranslatableAdmin)
-admin.site.register(Europe, TranslatableAdmin)
+
+class OurAdminPanel(TranslatableAdmin):
+    search_fields = ['translations__country__icontains']
+
+
+admin.site.register(Asia, OurAdminPanel)
+admin.site.register(Europe, OurAdminPanel)
 admin.site.register(License)

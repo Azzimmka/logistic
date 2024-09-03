@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 20:47-0700\n"
-"PO-Revision-Date: 2024-09-03 03:50+0000\n"
+"POT-Creation-Date: 2024-09-03 03:05-0700\n"
+"PO-Revision-Date: 2024-09-03 10:07+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -43,97 +43,206 @@ msgstr "European Country"
 msgid "European Countries"
 msgstr "European Countries"
 
-#: app/templates/base.html:72
+#: app/templates/about.html:13
+msgid "About.html"
+msgstr "About Us"
+
+#: app/templates/base.html:84
 msgid "home"
 msgstr "home"
 
-#: app/templates/base.html:73
+#: app/templates/base.html:85
 msgid "about"
 msgstr "about us"
 
-#: app/templates/base.html:74
+#: app/templates/base.html:86
 msgid "services"
 msgstr "services"
 
-#: app/templates/base.html:75
+#: app/templates/base.html:87
 msgid "contacts"
 msgstr "contacts"
 
-#: app/templates/base.html:76
+#: app/templates/base.html:88
 msgid "license"
 msgstr "license"
 
-#: app/templates/base.html:82
+#: app/templates/base.html:106
 msgid "send message"
 msgstr "Leave a request"
 
-#: app/templates/base.html:117
-msgid "COMPANY footer"
-msgstr "COMPANY"
-
-#: app/templates/base.html:119
+#: app/templates/base.html:159
 msgid "about footer"
 msgstr "about us "
 
-#: app/templates/base.html:120
+#: app/templates/base.html:160
 msgid "compny footer"
 msgstr "compny"
 
-#: app/templates/base.html:121
+#: app/templates/base.html:161
 msgid "license footer"
 msgstr "license"
 
-#: app/templates/base.html:129
+#: app/templates/base.html:169
 msgid "hour footer"
 msgstr "OPEN HOUR "
 
-#: app/templates/base.html:131
+#: app/templates/base.html:171
 msgid "monday footer"
 msgstr "Monday 9:00 AM - 6:00 PM"
 
-#: app/templates/base.html:132
+#: app/templates/base.html:172
 msgid "tuesday-Friday footer"
 msgstr "Tuesday-Friday 9:00 AM - 6:00 PM"
 
-#: app/templates/base.html:133
+#: app/templates/base.html:173
 msgid "saturday footer"
 msgstr "Saturday 9:00 AM - 6:00 PM"
 
-#: app/templates/base.html:142
+#: app/templates/base.html:182
 msgid "RESOURCES"
 msgstr "RESOURCES"
 
-#: app/templates/base.html:144
-#| msgid "hour footer"
+#: app/templates/base.html:184
 msgid "home footer"
 msgstr "Home"
 
-#: app/templates/base.html:145
-#| msgid "about footer"
+#: app/templates/base.html:185
 msgid "home about footer"
 msgstr "about us "
 
-#: app/templates/base.html:146
-#| msgid "license footer"
+#: app/templates/base.html:186
 msgid "home services footer"
 msgstr "services "
 
-#: app/templates/base.html:147
-#| msgid "compny footer"
+#: app/templates/base.html:187
 msgid "home contacts footer"
 msgstr "contacts"
 
-#: app/templates/base.html:148
-#| msgid "license footer"
+#: app/templates/base.html:188
 msgid "home license footer"
 msgstr "license"
 
-#: app/templates/base.html:163
-#| msgid "for blue logistic"
+#: app/templates/base.html:203
 msgid "obout logistic"
 msgstr ""
 "Our company ensures efficient supply chain management and adapts to market "
 "changes to guarantee the timely delivery of goods and services."
+
+#: app/templates/contacts.html:9
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: app/templates/contacts.html:15
+msgid "Phone"
+msgstr "Phone number "
+
+#: app/templates/contacts.html:21
+msgid "Working Hours"
+msgstr "Working Hours"
+
+#: app/templates/contacts.html:22 app/templates/index.html:51
+msgid "Mon - Sat 9:00 AM - 6:00 PM"
+msgstr "Mon - Sat 9:00 AM - 6:00 PM"
+
+#: app/templates/contacts.html:27
+msgid "Address"
+msgstr "Address"
+
+#: app/templates/contacts.html:29 app/templates/index.html:62
+msgid "Bukhara Region, Bukhara District, Mahalla Do'stlik, Buyuk Ipak Yo'li"
+msgstr "Bukhara Region, Bukhara District, Mahalla Do'stlik, Buyuk Ipak Yo'li"
+
+#: app/templates/includes/about_section.html:12
+msgid "About our company"
+msgstr "About our company"
+
+#: app/templates/includes/about_section.html:13
+msgid "Safe logistics and transport solutions."
+msgstr "Safe logistics and transport solutions."
+
+#: app/templates/includes/about_section.html:15
+msgid "about 1"
+msgstr ""
+"Our company was founded on October 28, 2020 and has since established itself"
+" as a reliable partner in the field of cargo transportation. We are proud to"
+" have more than 20 modern trucks that fully comply with quality and safety "
+"standards."
+
+#: app/templates/includes/about_section.html:16
+msgid "about 2"
+msgstr ""
+"Our machines are equipped with advanced technology, which allows us to "
+"provide highly reliable and efficient delivery."
+
+#: app/templates/includes/about_section.html:17
+msgid "Find out more about us"
+msgstr "Find out more about us"
+
+#: app/templates/includes/services_country.html:9
+#: app/templates/includes/services_country.html:47
+msgid "Our services"
+msgstr "Our services"
+
+#: app/templates/includes/services_country.html:10
+msgid "Asia"
+msgstr "Asia"
+
+#: app/templates/includes/services_country.html:48
+msgid "Europe"
+msgstr "Europe"
+
+#: app/templates/includes/testiminal.html:9
+msgid "Customer Reviews"
+msgstr "Customer Reviews"
+
+#: app/templates/includes/testiminal.html:10
+msgid "What Our Clients Say!"
+msgstr "What Our Clients Say!"
+
+#: app/templates/includes/testiminal.html:18
+msgid ""
+"Excellent service! We were pleasantly surprised by the quality of work and "
+"attention to detail. Your specialists demonstrated a high level of "
+"professionalism and efficiency. Highly recommended!"
+msgstr ""
+"Excellent service! We were pleasantly surprised by the quality of work and "
+"attention to detail. Your specialists demonstrated a high level of "
+"professionalism and efficiency. Highly recommended!"
+
+#: app/templates/includes/testiminal.html:25
+msgid "Ivan Petrov"
+msgstr "Ivan Petrov"
+
+#: app/templates/includes/testiminal.html:26
+msgid "Logistics Director"
+msgstr "Logistics Director"
+
+#: app/templates/includes/testiminal.html:36
+msgid ""
+"Our experience working with your company has been exceptionally positive. "
+"All shipments were completed on time and without issues. Great team, well "
+"done!"
+msgstr ""
+"Our experience working with your company has been exceptionally positive. "
+"All shipments were completed on time and without issues. Great team, well "
+"done!"
+
+#: app/templates/includes/testiminal.html:41
+msgid "Maria Kuznetsova"
+msgstr "Maria Kuznetsova"
+
+#: app/templates/includes/testiminal.html:42
+msgid "Procurement Manager"
+msgstr "Procurement Manager"
+
+#: app/templates/includes/testiminal.html:52
+msgid "We are always ready to listen and understand your needs."
+msgstr "We are always ready to listen and understand your needs."
+
+#: app/templates/includes/testiminal.html:55
+msgid "Submit"
+msgstr "Submit"
 
 #: app/templates/index.html:16
 msgid "h1 n1"
@@ -147,14 +256,106 @@ msgstr " Logistic "
 msgid "h1 n2"
 msgstr "Solutions"
 
-#: logistic/settings.py:119
+#: app/templates/index.html:39
+msgid "Call us"
+msgstr "Call us"
+
+#: app/templates/index.html:50
+msgid "Open Hour"
+msgstr "Open Hour"
+
+#: app/templates/index.html:61
+msgid "Adderss"
+msgstr "Adderss"
+
+#: app/templates/license.html:5
+msgid "License to provide logistics services"
+msgstr "License to provide logistics services"
+
+#: app/templates/license.html:9
+msgid "License document"
+msgstr "Лицензионный документ"
+
+#: app/templates/license.html:13
+msgid ""
+"In this section, you can view or download a PDF of your company's license. "
+"We care about transparency and provide all the necessary documents for your "
+"confidence in our activities."
+msgstr ""
+"In this section, you can view or download a PDF of your company's license. "
+"We care about transparency and provide all the necessary documents for your "
+"confidence in our activities."
+
+#: app/templates/license.html:21
+msgid "Download PDF licenses"
+msgstr "Download PDF licenses"
+
+#: app/templates/services.html:13
+msgid "Our servicess"
+msgstr "Our services"
+
+#: app/templates/services.html:14
+msgid "Logistics company"
+msgstr "Logistics company"
+
+#: app/templates/services.html:27
+msgid "About our companyy"
+msgstr "About our company"
+
+#: app/templates/services.html:28
+msgid "text"
+msgstr ""
+"Our logistics company offers a wide range of services, including "
+"international and domestic transportation, customs clearance, warehousing, "
+"and supply chain management. We guarantee the reliability and timely "
+"delivery of your goods worldwide."
+
+#: app/templates/services.html:37
+msgid "Our Advantages"
+msgstr "Our Advantages"
+
+#: app/templates/services.html:39
+msgid "Customer Support"
+msgstr "Customer Support"
+
+#: app/templates/services.html:40
+msgid "Global Network of Partners"
+msgstr "Global Network of Partners"
+
+#: app/templates/services.html:41
+msgid "Competitive Rates"
+msgstr "Competitive Rates"
+
+#: app/templates/services.html:42
+msgid "Timely Delivery"
+msgstr "Timely Delivery"
+
+#: app/templates/services.html:43
+msgid "Flexibility and Personalized Approach"
+msgstr "Flexibility and Personalized Approach"
+
+#: logistic/settings.py:120
 msgid "Russian"
 msgstr "Russian"
 
-#: logistic/settings.py:120
+#: logistic/settings.py:121
 msgid "English"
 msgstr "English"
 
-#: logistic/settings.py:121
+#: logistic/settings.py:122
 msgid "Uzbek"
 msgstr "Uzbek"
+
+#~ msgid "language"
+#~ msgstr "Choose Language"
+
+#, fuzzy
+#~ msgid "About Us"
+#~ msgstr ""
+#~ "Our company was founded on October 28, 2020 and has since established itself"
+#~ " as a reliable partner in the field of cargo transportation. We are proud to"
+#~ " have more than 20 modern trucks that fully comply with quality and safety "
+#~ "standards."
+
+#~ msgid "COMPANY footer"
+#~ msgstr "COMPANY"

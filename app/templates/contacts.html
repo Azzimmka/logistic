@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+
+{% block main %}
+<section id="contacts" class="contact-section">
+    <div class="container">
+        <h2>{% trans "Contact Us" %}</h2>
+    
+        
+        <div class="contact-info">
+            <!-- Phone Number -->
+            <div class="contact-item">
+                <h3>{% trans "Phone" %}</h3>
+                <p>+998 91 409 44 44</p>
+            </div>
+            
+            <!-- Working Hours -->
+            <div class="contact-item">
+                <h3>{% trans "Working Hours" %}</h3>
+                <p>{% trans "Mon - Sat 9:00 AM - 6:00 PM" %}</p>
+            </div>
+            
+            <!-- Address -->
+            <div class="contact-item">
+                <h3>{% trans "Address" %}</h3>
+                <p>
+                    {% trans "Bukhara Region, Bukhara District, Mahalla Do'stlik, Buyuk Ipak Yo'li" %}
+                </p>
+            </div>
+        </div>
+
+        <!-- Additional Information -->
+        <br><br><br><br>
+
+    </div>
+</section>
+
+<style>
+    .contact-section {
+        padding: 40px 0;
+        background-color: #f9f9f9;
+    }
+    .contact-section h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        color: #333;
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .contact-item {
+        background: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+    }
+    .contact-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .contact-item p {
+        font-size: 1rem;
+        color: #666;
+    }
+    .additional-info {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .additional-info h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .additional-info p {
+        font-size: 1rem;
+        color: #666;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+</style>
+{% endblock %}

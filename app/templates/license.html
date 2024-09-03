@@ -2,14 +2,15 @@
 {% load i18n %}
 {% block main %}
     <div class="container my-5">
-        <h1 class="mb-4">Лицензия на предоставление логистических услуг</h1>
-        
+        <h1 class="mb-4">{% trans 'License to provide logistics services' %}</h1>
+
         <div class="card">
             <div class="card-header">
-                <h2 class="h4">Документ лицензии</h2>
+                <h2 class="h4">{% trans 'License document' %}</h2>
+                
             </div>
             <div class="card-body">
-                <p class="mb-4">В этом разделе вы можете просмотреть или загрузить PDF-файл лицензии вашей компании. Мы заботимся о прозрачности и предоставляем все необходимые документы для вашей уверенности в нашей деятельности.</p>
+                <p class="mb-4">{% trans "In this section, you can view or download a PDF of your company's license. We care about transparency and provide all the necessary documents for your confidence in our activities." %}</p>
 
                 <!-- Встраивание PDF с улучшенным дизайном -->
                 <div class="embed-responsive embed-responsive-16by9 mb-4">
@@ -17,7 +18,7 @@
                 </div>
 
                 <!-- Альтернативный вариант для скачивания -->
-                <a href="{{ license.pdf.url }}" class="btn btn-primary" target="_blank">Скачать PDF лицензии</a>
+                <a href="{{ license.pdf.url }}" class="btn btn-primary" target="_blank">{% trans 'Download PDF licenses' %}</a>
             </div>
         </div>
     </div>

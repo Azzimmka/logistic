@@ -1,0 +1,98 @@
+{% load static %}
+{% load i18n %}
+<div class="categories-area section-padding30" style="margin-top: -100px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Section Title for Asia -->
+                <div class="section-tittle text-center mb-80">
+                    <span>{% trans 'Our services' %}</span>
+                    <h2>{% trans 'Asia' %}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Азербайджан -->
+                {% for city in country %}
+                <div class="swiper-slide">
+                    <div class="single-cat text-center mb-50 flex flex-col justify-between">
+                        <div class="cat-icon">
+                            <img src="{{ city.logo.url }}" alt="Azerbaijan Flag">
+                        </div>
+                        <div class="cat-cap mt-4">
+                            <h5><a href="#">{{ city.country }}</a></h5>
+                            <p class="description">
+                                {{ city.description }}
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                {% endfor %}
+            </div>
+            <!-- Custom navigation buttons -->
+            <div class="swiper-button-prev custom-prev"></div>
+            <div class="swiper-button-next custom-next"></div>
+        </div>
+    </div>
+</div>
+
+<div class="categories-area section-padding30" style="margin-top: -100px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Section Title for Europe -->
+                <div class="section-tittle text-center mb-80">
+                    <span>{% trans 'Our services' %}</span>
+                    <h2>{% trans 'Europe' %}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Германия -->
+                 {% for cities in countries %}
+                <div class="swiper-slide">
+                    <div class="single-cat text-center mb-50 flex flex-col justify-between">
+                        <div class="cat-icon">
+                            <img src="{{ cities.logo.url }}" alt="Germany Flag">
+                        </div>
+                        <div class="cat-cap mt-4">
+                            <h5><a href="#">{{ cities.country }}</a></h5>
+                            <p class="description">
+                                {{ cities.description }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <!-- Custom navigation buttons -->
+            <div class="swiper-button-prev custom-prev"></div>
+            <div class="swiper-button-next custom-next"></div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Устанавливаем минимальную высоту для всех карточек */
+    .single-cat {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 350px; /* Установите нужную высоту */
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+    }
+
+    /* Ограничиваем текст в <p> до 4 строк для всех карточек */
+    .description {
+        display: -webkit-box;
+        -webkit-line-clamp: 4; /* Показываем только 4 строки */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>

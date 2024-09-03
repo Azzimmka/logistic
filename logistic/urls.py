@@ -26,6 +26,8 @@ urlpatterns = i18n_patterns (
     path('admin/', admin.site.urls),
     path('rosetta/', include('rosetta.urls')),
     path('', include('app.urls')),
+    prefix_default_language=False,
+
 )+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

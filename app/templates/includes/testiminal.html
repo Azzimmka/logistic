@@ -1,0 +1,61 @@
+{% load static %}
+{% load i18n %}
+<div id="info" class="testimonial-area testimonial-padding section-bg" data-background="{% static 'assets/img/gallery/section_bg04.jpg' %}">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-xl-7 col-lg-7">
+                <!-- Section Title -->
+                <div class="section-tittle section-tittle2 mb-25">
+                    <span style="color: white;">{% trans 'Customer Reviews' %}</span>
+                    <h2>{% trans 'What Our Clients Say!' %}</h2>
+                </div> 
+                <div class="h1-testimonial-active mb-70">
+                    <!-- Single Testimonial -->
+                    <div class="single-testimonial">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-caption">
+                            <div class="testimonial-top-cap">
+                                <p>{% trans 'Excellent service! We were pleasantly surprised by the quality of work and attention to detail. Your specialists demonstrated a high level of professionalism and efficiency. Highly recommended!' %}</p>
+                            </div>
+                            <!-- Founder -->
+                            <div class="testimonial-founder d-flex align-items-center">
+                                <div class="">
+                                </div>
+                                <div class="founder-text">
+                                    <span>{% trans 'Ivan Petrov' %}</span>
+                                    <p>{% trans 'Logistics Director' %}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Testimonial -->
+                    <div class="single-testimonial">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-caption">
+                            <div class="testimonial-top-cap">
+                                <p>{% trans 'Our experience working with your company has been exceptionally positive. All shipments were completed on time and without issues. Great team, well done!' %}</p>
+                            </div>
+                            <!-- Founder -->
+                            <div class="testimonial-founder d-flex align-items-center">
+                                <div class="founder-text">
+                                    <span>{% trans 'Maria Kuznetsova' %}</span>
+                                    <p>{% trans 'Procurement Manager' %}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Form Start -->
+            <div class="col-xl-4 col-lg-5 col-md-8">
+                <div class="testimonial-form text-center">
+                    <h2>{% trans 'We are always ready to listen and understand your needs.' %}</h2>
+                    <input type="text" placeholder="">
+                    <input type="text" placeholder="">
+                    <button name="submit" class="submit-btn">{% trans 'Submit' %}</button>
+                </div>
+            </div>
+            <!-- Form End -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block main %}
+<!-- Section Title for Logistics Company -->
+<div class="categories-area section-padding30" style="margin-bottom: -200px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Section Title -->
+                <div class="section-tittle text-center mb-80">
+                    <span>{% trans 'Our servicess' %}</span>
+                    <h2>{% trans 'Logistics company' %}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Описание компании -->
+            <div class="col-lg-6 col-md-12">
+                <div class="single-cat text-center mb-50">
+                    <div class="cat-icon">
+                       
+                    </div>
+                    <br><br>
+                    <div class="cat-cap">
+                        <h5><a href="#">{% trans 'About our companyy' %}</a></h5>О нашей компании
+                        <p>{% trans 'text' %}</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- Преимущества компании -->
+            <div class="col-lg-6 col-md-12">
+                <div class="single-cat text-center mb-50">
+                    <div class="cat-cap">
+                        <h5><a href="#">{% trans 'Our Advantages' %}</a></h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">{% trans 'Customer Support' %}</li>
+                            <li class="list-group-item">{% trans 'Global Network of Partners' %}</li>
+                            <li class="list-group-item">{% trans 'Competitive Rates' %}</li>
+                            <li class="list-group-item">{% trans 'Timely Delivery' %}</li>
+                            <li class="list-group-item">{% trans 'Flexibility and Personalized Approach' %}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- добавь здесь инфу  -->
+
+{% include 'includes/services_country.html' %}
+{% endblock %}
+

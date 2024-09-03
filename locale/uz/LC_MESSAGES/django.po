@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 20:47-0700\n"
-"PO-Revision-Date: 2024-09-03 03:52+0000\n"
+"POT-Creation-Date: 2024-09-03 03:05-0700\n"
+"PO-Revision-Date: 2024-09-03 10:07+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -43,98 +43,209 @@ msgstr "Evropa davlati"
 msgid "European Countries"
 msgstr "Evropa davlatlari "
 
-#: app/templates/base.html:72
+#: app/templates/about.html:13
+msgid "About.html"
+msgstr "Biz haqimizda"
+
+#: app/templates/base.html:84
 msgid "home"
 msgstr "asosiy"
 
-#: app/templates/base.html:73
+#: app/templates/base.html:85
 msgid "about"
 msgstr "biz haqimizda"
 
-#: app/templates/base.html:74
+#: app/templates/base.html:86
 msgid "services"
 msgstr "xizmatlar"
 
-#: app/templates/base.html:75
+#: app/templates/base.html:87
 msgid "contacts"
 msgstr "kontaktlar"
 
-#: app/templates/base.html:76
+#: app/templates/base.html:88
 msgid "license"
 msgstr "litsenziya"
 
-#: app/templates/base.html:82
+#: app/templates/base.html:106
 msgid "send message"
 msgstr "xabar yuborish"
 
-#: app/templates/base.html:117
-msgid "COMPANY footer"
-msgstr "KOMPANIYA"
-
-#: app/templates/base.html:119
+#: app/templates/base.html:159
 msgid "about footer"
 msgstr "biz haqida"
 
-#: app/templates/base.html:120
+#: app/templates/base.html:160
 msgid "compny footer"
 msgstr "kompaniya "
 
-#: app/templates/base.html:121
+#: app/templates/base.html:161
 msgid "license footer"
 msgstr "litsenziya"
 
-#: app/templates/base.html:129
+#: app/templates/base.html:169
 msgid "hour footer"
 msgstr "ish vaqti"
 
-#: app/templates/base.html:131
+#: app/templates/base.html:171
 msgid "monday footer"
 msgstr "Dushanba 9:00-18:00"
 
-#: app/templates/base.html:132
+#: app/templates/base.html:172
 msgid "tuesday-Friday footer"
 msgstr "Seshanba-Juma 9:00-18:00"
 
-#: app/templates/base.html:133
+#: app/templates/base.html:173
 msgid "saturday footer"
 msgstr "Shanba 9:00-18:00"
 
-#: app/templates/base.html:142
+#: app/templates/base.html:182
 msgid "RESOURCES"
 msgstr "RESURSLAR"
 
-#: app/templates/base.html:144
-#| msgid "hour footer"
+#: app/templates/base.html:184
 msgid "home footer"
 msgstr "Asosiy "
 
-#: app/templates/base.html:145
-#| msgid "about footer"
+#: app/templates/base.html:185
 msgid "home about footer"
 msgstr "biz haqida"
 
-#: app/templates/base.html:146
-#| msgid "license footer"
+#: app/templates/base.html:186
 msgid "home services footer"
 msgstr "Xizmatlar "
 
-#: app/templates/base.html:147
-#| msgid "compny footer"
+#: app/templates/base.html:187
 msgid "home contacts footer"
 msgstr "Kontaktlar "
 
-#: app/templates/base.html:148
-#| msgid "license footer"
+#: app/templates/base.html:188
 msgid "home license footer"
 msgstr "litsenziya"
 
-#: app/templates/base.html:163
-#| msgid "for blue logistic"
+#: app/templates/base.html:203
 msgid "obout logistic"
 msgstr ""
 "Kompaniyamiz ta'minot zanjirlarini samarali boshqaradi va bozor "
 "o'zgarishlariga moslashadi, bu esa mahsulot va xizmatlarning o'z vaqtida "
 "yetkazib berilishini kafolatlaydi."
+
+#: app/templates/contacts.html:9
+msgid "Contact Us"
+msgstr "kontaktlar"
+
+#: app/templates/contacts.html:15
+msgid "Phone"
+msgstr "Telefon number  "
+
+#: app/templates/contacts.html:21
+msgid "Working Hours"
+msgstr "Ish vaqti  "
+
+#: app/templates/contacts.html:22 app/templates/index.html:51
+msgid "Mon - Sat 9:00 AM - 6:00 PM"
+msgstr "Dushanba - shanba 9:00 dan 18:00 gacha"
+
+#: app/templates/contacts.html:27
+msgid "Address"
+msgstr "Manzil"
+
+#: app/templates/contacts.html:29 app/templates/index.html:62
+msgid "Bukhara Region, Bukhara District, Mahalla Do'stlik, Buyuk Ipak Yo'li"
+msgstr "Buxoro viloyati, Buxoro tumani, Mahalla do'stlik, Buyuk Ipak yo'li"
+
+#: app/templates/includes/about_section.html:12
+msgid "About our company"
+msgstr "Kompaniyamiz haqida"
+
+#: app/templates/includes/about_section.html:13
+msgid "Safe logistics and transport solutions."
+msgstr "Xavfsiz logistika va transport yechimlari."
+
+#: app/templates/includes/about_section.html:15
+msgid "about 1"
+msgstr ""
+"Bizning kompaniya 2020-yil 28-oktabrda tashkil etilgan va shu vaqtgacha yuk "
+"tashish sohasida ishonchli hamkor sifatida o'zini ko'rsatdi. Biz 20 dan "
+"ortiq zamonaviy yuk mashinalariga ega bo'lishimiz bilan faxrlanamiz, ular "
+"sifat va xavfsizlik standartlariga to'liq mos keladi."
+
+#: app/templates/includes/about_section.html:16
+msgid "about 2"
+msgstr ""
+"Bizning mashinalarimiz ilg'or texnologiyalar bilan jihozlangan bo'lib, "
+"yuqori ishonchlilik va yetkazib berish samaradorligini ta'minlash imkonini "
+"beradi."
+
+#: app/templates/includes/about_section.html:17
+msgid "Find out more about us"
+msgstr "Biz haqimizda ko'proq bilib oling"
+
+#: app/templates/includes/services_country.html:9
+#: app/templates/includes/services_country.html:47
+msgid "Our services"
+msgstr "Bizning xizmatlarimiz"
+
+#: app/templates/includes/services_country.html:10
+msgid "Asia"
+msgstr "Osiyo"
+
+#: app/templates/includes/services_country.html:48
+msgid "Europe"
+msgstr "Yevropa"
+
+#: app/templates/includes/testiminal.html:9
+msgid "Customer Reviews"
+msgstr "Mijozlarimiz fikri"
+
+#: app/templates/includes/testiminal.html:10
+msgid "What Our Clients Say!"
+msgstr "Mijozlarimiz nima deyishmoqda!"
+
+#: app/templates/includes/testiminal.html:18
+msgid ""
+"Excellent service! We were pleasantly surprised by the quality of work and "
+"attention to detail. Your specialists demonstrated a high level of "
+"professionalism and efficiency. Highly recommended!"
+msgstr ""
+"Ajoyib xizmat! Ish sifatidan va detallarga e'tibordan xursand bo'ldik. "
+"Mutaxassislaringiz yuqori darajada professionallik va samaradorlik namoyish "
+"etdilar. Tavsiya etamiz!"
+
+#: app/templates/includes/testiminal.html:25
+msgid "Ivan Petrov"
+msgstr "Ivan Petrov"
+
+#: app/templates/includes/testiminal.html:26
+msgid "Logistics Director"
+msgstr "Logistika direktori"
+
+#: app/templates/includes/testiminal.html:36
+msgid ""
+"Our experience working with your company has been exceptionally positive. "
+"All shipments were completed on time and without issues. Great team, well "
+"done!"
+msgstr ""
+"Sizning kompaniyangiz bilan ishlash tajribamiz juda ijobiy bo'ldi. Barcha "
+"yuk tashishlar o'z vaqtida va muammosiz amalga oshirildi. Ajoyib jamoa, "
+"ishlaringizga baraka!"
+
+#: app/templates/includes/testiminal.html:41
+msgid "Maria Kuznetsova"
+msgstr "Maria Kuznetsova"
+
+#: app/templates/includes/testiminal.html:42
+msgid "Procurement Manager"
+msgstr "Xaridlar bo'yicha menejer"
+
+#: app/templates/includes/testiminal.html:52
+msgid "We are always ready to listen and understand your needs."
+msgstr ""
+"Biz har doim sizning ehtiyojlaringizni tinglashga va tushunishga tayyormiz."
+
+#: app/templates/includes/testiminal.html:55
+msgid "Submit"
+msgstr "Yuborish"
 
 #: app/templates/index.html:16
 msgid "h1 n1"
@@ -148,14 +259,110 @@ msgstr "Logistika"
 msgid "h1 n2"
 msgstr "Yechimlar"
 
-#: logistic/settings.py:119
+#: app/templates/index.html:39
+msgid "Call us"
+msgstr "Bizga qo'ng'iroq qiling"
+
+#: app/templates/index.html:50
+msgid "Open Hour"
+msgstr "Ish vaqti "
+
+#: app/templates/index.html:61
+msgid "Adderss"
+msgstr "Manzil "
+
+#: app/templates/license.html:5
+msgid "License to provide logistics services"
+msgstr "Logistika xizmatlarini ko'rsatish uchun litsenziya"
+
+#: app/templates/license.html:9
+msgid "License document"
+msgstr "Litsenziya hujjati"
+
+#: app/templates/license.html:13
+msgid ""
+"In this section, you can view or download a PDF of your company's license. "
+"We care about transparency and provide all the necessary documents for your "
+"confidence in our activities."
+msgstr ""
+"Ushbu bo'limda siz kompaniya litsenziyasining PDF-faylini ko'rishingiz yoki "
+"yuklab olishingiz mumkin. Biz shaffoflik haqida qayg'uramiz va "
+"faoliyatimizga ishonchingiz uchun barcha kerakli hujjatlarni taqdim etamiz."
+
+#: app/templates/license.html:21
+msgid "Download PDF licenses"
+msgstr "PDF litsenziyalar yuklab olish"
+
+#: app/templates/services.html:13
+msgid "Our servicess"
+msgstr "Bizning xizmatlarimiz"
+
+#: app/templates/services.html:14
+msgid "Logistics company"
+msgstr "Logistika kompaniyasi"
+
+#: app/templates/services.html:27
+msgid "About our companyy"
+msgstr "Kompaniyamiz haqida"
+
+#: app/templates/services.html:28
+msgid "text"
+msgstr ""
+"Bizning logistika kompaniyamiz xalqaro va ichki yuk tashish, bojxona "
+"rasmiylashtiruvi, omborlash va ta’minot zanjirlarini boshqarish kabi keng "
+"ko‘lamli xizmatlarni taqdim etadi. Biz sizning yuklaringizni butun dunyo "
+"bo‘ylab ishonchli va o‘z vaqtida yetkazib berishni kafolatlaymiz."
+
+#: app/templates/services.html:37
+msgid "Our Advantages"
+msgstr "Bizning afzalliklarimiz"
+
+#: app/templates/services.html:39
+msgid "Customer Support"
+msgstr "Mijozlarni qo'llab-quvvatlash"
+
+#: app/templates/services.html:40
+msgid "Global Network of Partners"
+msgstr "Global hamkorlar tarmog'i"
+
+#: app/templates/services.html:41
+msgid "Competitive Rates"
+msgstr "Raqobatbardosh tariflar"
+
+#: app/templates/services.html:42
+msgid "Timely Delivery"
+msgstr "O‘z vaqtida yetkazib berish"
+
+#: app/templates/services.html:43
+msgid "Flexibility and Personalized Approach"
+msgstr "Moslashuvchanlik va individual yondashuv"
+
+#: logistic/settings.py:120
 msgid "Russian"
 msgstr "Ruscha"
 
-#: logistic/settings.py:120
+#: logistic/settings.py:121
 msgid "English"
 msgstr "Anglischa"
 
-#: logistic/settings.py:121
+#: logistic/settings.py:122
 msgid "Uzbek"
 msgstr "Ozbekcha"
+
+#~ msgid "language"
+#~ msgstr "Tilni tanlash "
+
+#, fuzzy
+#~ msgid "About Us"
+#~ msgstr ""
+#~ "Bizning kompaniya 2020-yil 28-oktabrda tashkil etilgan va shu vaqtgacha yuk "
+#~ "tashish sohasida ishonchli hamkor sifatida o'zini ko'rsatdi. Biz 20 dan "
+#~ "ortiq zamonaviy yuk mashinalariga ega bo'lishimiz bilan faxrlanamiz, ular "
+#~ "sifat va xavfsizlik standartlariga to'liq mos keladi."
+
+#, fuzzy
+#~ msgid "Bukhara Region, Bukhara District, Mahalla Do"
+#~ msgstr "Buxoro viloyati, Buxoro tumani, Mahalla do'stlik, Buyuk Ipak yo'li"
+
+#~ msgid "COMPANY footer"
+#~ msgstr "KOMPANIYA"
