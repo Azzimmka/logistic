@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-03 03:05-0700\n"
-"PO-Revision-Date: 2024-09-03 10:07+0000\n"
+"PO-Revision-Date: 2024-09-04 05:39+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -246,15 +246,15 @@ msgstr "Submit"
 
 #: app/templates/index.html:16
 msgid "h1 n1"
-msgstr "Secure and Reliable "
+msgstr "International"
 
 #: app/templates/index.html:16
 msgid "for blue logistic"
-msgstr " Logistic "
+msgstr "Logistics"
 
 #: app/templates/index.html:16
 msgid "h1 n2"
-msgstr "Solutions"
+msgstr "Company"
 
 #: app/templates/index.html:39
 msgid "Call us"

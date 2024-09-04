@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-03 03:05-0700\n"
-"PO-Revision-Date: 2024-09-03 10:07+0000\n"
+"PO-Revision-Date: 2024-09-04 05:40+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -249,7 +249,7 @@ msgstr "Yuborish"
 
 #: app/templates/index.html:16
 msgid "h1 n1"
-msgstr "Xavfsiz va Ishonchli"
+msgstr " Xalqaro"
 
 #: app/templates/index.html:16
 msgid "for blue logistic"
@@ -257,7 +257,7 @@ msgstr "Logistika"
 
 #: app/templates/index.html:16
 msgid "h1 n2"
-msgstr "Yechimlar"
+msgstr "Kompaniyasi"
 
 #: app/templates/index.html:39
 msgid "Call us"
