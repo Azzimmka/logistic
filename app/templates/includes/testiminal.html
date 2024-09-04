@@ -50,11 +50,14 @@
             <div class="col-xl-4 col-lg-5 col-md-8">
                 <div class="testimonial-form text-center">
                     <h2>{% trans 'We are always ready to listen and understand your needs.' %}</h2>
-                    <input type="text" placeholder="">
-                    <input type="text" placeholder="">
-                    <button name="submit" class="submit-btn">{% trans 'Submit' %}</button>
+                    <form method="post">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <button type="submit" class="submit-btn">{% trans 'Submit' %}</button>
+                    </form>
                 </div>
             </div>
+            
             <!-- Form End -->
         </div>
     </div>

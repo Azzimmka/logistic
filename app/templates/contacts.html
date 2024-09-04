@@ -4,6 +4,25 @@
 
 
 {% block main %}
+
+<div class="slider-area ">
+    <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="{% static '/assets/img/hero/about.jpg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap">
+                        <h2>Contact Us</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <section id="contacts" class="contact-section">
     <div class="container">
         <h2>{% trans "Contact Us" %}</h2>
@@ -36,7 +55,19 @@
 
     </div>
 </section>
-
+<br><br>
+<div class="mb-5 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.415020656461!2d64.44617219999999!3d39.8649407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f500d27e2b66b1d%3A0x231f1d1ffd233c87!2sLKW-SERVICE!5e0!3m2!1sru!2s!4v1725363778863!5m2!1sru!2s" 
+        width="1200" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div><!-- End Google Maps -->
+<br><br>
 <style>
     .contact-section {
         padding: 40px 0;
