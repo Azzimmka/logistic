@@ -11,10 +11,13 @@
             <div class="single-slider slider-height d-flex align-items-center">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-9 col-lg-9">
-                            <div class="hero__caption text-left"> <!-- Убедитесь, что используется класс text-left -->
-                                <h1>{% trans 'h1 n1' %} <span>{% trans 'for blue logistic' %}</span> {% trans 'h1 n2' %}!</h1>
-
+                        <div class="col-xl-9 col-lg-9 col-md-12">
+                            <div class="hero__caption custom-caption text-left">
+                                <h1 class="display-4">
+                                    {% trans 'h1 n1' %} 
+                                    <span class="text-danger">{% trans 'for blue logistic' %}</span> 
+                                    {% trans 'h1 n2' %}!
+                                </h1>
                             </div>
                         </div>
                     </div>
@@ -22,7 +25,20 @@
             </div>
         </div>
     </div>
-    
+    <style>
+        /* Custom CSS to adjust vertical position */
+        .custom-caption {
+            margin-top: -430px; /* Adjust this value as needed */
+        }
+
+        /* Responsive adjustment */
+        @media (max-width: 768px) {
+            .custom-caption {
+                margin-top: -200px; /* Adjust for mobile */
+            }
+        }
+
+        </style>
     <!--  -->
 
     <!-- slider Area End-->
@@ -77,6 +93,7 @@
 
 <!-- Секция Азии -->
 
+<h3></h3>
 
 {% include 'includes/services_country.html' %}
 
@@ -88,8 +105,34 @@
 
     <!-- Team Ara End -->
 
+    <div class="container" id="komanda">
+        <h1 class="title text-center mb-5">Our team</h1> <!-- Added margin-bottom for spacing -->
+    
+        <div class="row d-flex justify-content-center"> <!-- Centered the content -->
+            {% for item in comm %}
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center"> <!-- Center the card horizontally -->
+                <div class="card" style="width: 100%; max-width: 18rem;">
+                    <img src="{{ item.img.url }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ item.name }}</h5>
+                        <h5 class="card-title">{{ item.title }}</h5>
+                        <p class="card-text">{{ item.contact }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+<br><br>
+{% include 'contacts.html' %}
+
 {% include 'includes/testiminal.html' %}
     
+
+
+<br><br>
+
     <!-- Testimonial End -->
     <!--? Blog Area Start -->
    

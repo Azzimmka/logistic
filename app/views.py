@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Asia, Europe, License
+from .models import Asia, Europe, License, Commond
 from django.http import Http404
 from .forms import UserInputForm
 
@@ -9,6 +9,7 @@ from .forms import UserInputForm
 def base(request):
     country = Asia.objects.all()
     countries = Europe.objects.all()
+    commond = Commond.objects.all()
     
     if request.method == 'POST':
         form = UserInputForm(request.POST)
@@ -22,6 +23,7 @@ def base(request):
         'country': country,
         'countries': countries,
         'form': form,
+        'comm': commond
     }
     return render(request, 'index.html', context)
 

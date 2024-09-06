@@ -2,6 +2,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from parler.models import TranslatableModel, TranslatedFields
 
+
 class Asia(TranslatableModel):
     translations = TranslatedFields(
         country = models.CharField(_('country'), max_length=50),
@@ -46,3 +47,22 @@ class UserInput(models.Model):
 
     def __str__(self):
         return f'{self.phone_number} - {self.information}'
+
+
+class Commond(TranslatableModel):
+    translations = TranslatedFields(
+        title = models.CharField(_('title'), max_length=50),
+        name = models.TextField(_('name'))
+    )
+    img = models.ImageField()
+    contact = models.CharField(max_length=50,null=True)
+
+    class Meta:
+        verbose_name = _('Команду')
+        verbose_name_plural = _('Команды')
+
+
+    def __str__(self):
+        return self.name
+
+

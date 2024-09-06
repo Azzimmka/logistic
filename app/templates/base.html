@@ -89,11 +89,11 @@
                          </style>
                          <div class="col-xl-2 col-lg-2 d-flex align-items-center"> 
 
-                                <a href="index.html">
+                                <a href="{% url 'base' %}">
                                     <img src="{% static 'assets/img/logo0.png' %}" style="max-width: 180px;" alt="">
                                 </a>
 
-                                <span class="logo-text" style="margin-left: 10px; color: rgb(0, 0, 130);">SERVICES </span>
+                                <span class="logo-text" style="margin-left: 10px; color: rgb(0, 0, 130);">SERVICE </span>
 
 
 
@@ -112,9 +112,9 @@
                                         <nav>
                                             <ul id="navigation" >
                                                 <li><a href="{% url 'base' %}">{% trans 'home' %}</a></li>
-                                                <li><a href="{% url 'about' %}">{% trans 'about' %}</a></li>
-                                                <li><a href="{% url 'services' %}">{% trans 'services' %}</a></li>
-                                                <li><a href="{% url 'contacts' %}">{% trans 'contacts' %}</a></li>
+                                                <li><a href="#aboutA">{% trans 'about' %}</a></li>
+                                                <li><a href="#services2">{% trans 'services' %}</a></li>
+                                                <li><a href="#contacts1">{% trans 'contacts' %}</a></li>
                                                 <li><a href="{% url 'license' %}">{% trans 'license' %}</a></li>
                                                 {% get_current_language as CURRENT_LANGUAGE %}
                                                 {% get_available_languages as AVAILABLE_LANGUAGES %}
@@ -133,7 +133,7 @@
 
                                     <!-- Header button -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="{% url 'about' %}#info" class="btn header-btn small-btn">{% trans 'send message' %}</a>
+                                        <a href="https://web.telegram.org/k/#@lkwservice001" class="btn header-btn small-btn">{% trans 'send message' %}</a>
                                     </div>
                                  
                                 </div>
@@ -237,7 +237,7 @@
                             </div>
                             <!-- Footer Social -->
                             <div class="footer-social ">
-                                <a href="https://web.telegram.org/k/#@Shaxzod_2003_06_21"><i class="fa-brands fa-telegram"></i></a>
+                                <a href="https://web.telegram.org/k/#@lkwservice001"><i class="fa-brands fa-telegram"></i></a>
                                 <a href="https://www.instagram.com/lkw_service.uz/"><i class="fa-brands fa-instagram"></i></a>
                             </div>
                         </div>

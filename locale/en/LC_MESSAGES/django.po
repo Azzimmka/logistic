@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-03 03:05-0700\n"
-"PO-Revision-Date: 2024-09-04 05:39+0000\n"
+"POT-Creation-Date: 2024-09-05 05:16-0700\n"
+"PO-Revision-Date: 2024-09-05 12:17+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,137 +19,153 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: app/models.py:7 app/models.py:23
+#: app/models.py:8 app/models.py:24
 msgid "country"
 msgstr "Country"
 
-#: app/models.py:8 app/models.py:24
+#: app/models.py:9 app/models.py:25
 msgid "description"
 msgstr "Discription"
 
-#: app/models.py:15
+#: app/models.py:16
 msgid "Asian Country"
 msgstr "Asian Country"
 
-#: app/models.py:16
+#: app/models.py:17
 msgid "Asian Countries"
 msgstr "Asian Countries"
 
-#: app/models.py:29
+#: app/models.py:30
 msgid "European Country"
 msgstr "European Country"
 
-#: app/models.py:30
+#: app/models.py:31
 msgid "European Countries"
 msgstr "European Countries"
+
+#: app/models.py:54
+msgid "title"
+msgstr "Title"
+
+#: app/models.py:55
+msgid "name"
+msgstr "Name"
+
+#: app/models.py:61
+msgid "Команду"
+msgstr "Team"
+
+#: app/models.py:62
+msgid "Команды"
+msgstr "Teams"
 
 #: app/templates/about.html:13
 msgid "About.html"
 msgstr "About Us"
 
-#: app/templates/base.html:84
+#: app/templates/base.html:114
 msgid "home"
 msgstr "home"
 
-#: app/templates/base.html:85
+#: app/templates/base.html:115
 msgid "about"
 msgstr "about us"
 
-#: app/templates/base.html:86
+#: app/templates/base.html:116
 msgid "services"
 msgstr "services"
 
-#: app/templates/base.html:87
+#: app/templates/base.html:117
 msgid "contacts"
 msgstr "contacts"
 
-#: app/templates/base.html:88
+#: app/templates/base.html:118
 msgid "license"
 msgstr "license"
 
-#: app/templates/base.html:106
+#: app/templates/base.html:136
 msgid "send message"
 msgstr "Leave a request"
 
-#: app/templates/base.html:159
+#: app/templates/base.html:189
 msgid "about footer"
 msgstr "about us "
 
-#: app/templates/base.html:160
+#: app/templates/base.html:190
 msgid "compny footer"
 msgstr "compny"
 
-#: app/templates/base.html:161
+#: app/templates/base.html:191
 msgid "license footer"
 msgstr "license"
 
-#: app/templates/base.html:169
+#: app/templates/base.html:199
 msgid "hour footer"
 msgstr "OPEN HOUR "
 
-#: app/templates/base.html:171
+#: app/templates/base.html:201
 msgid "monday footer"
 msgstr "Monday 9:00 AM - 6:00 PM"
 
-#: app/templates/base.html:172
+#: app/templates/base.html:202
 msgid "tuesday-Friday footer"
 msgstr "Tuesday-Friday 9:00 AM - 6:00 PM"
 
-#: app/templates/base.html:173
+#: app/templates/base.html:203
 msgid "saturday footer"
 msgstr "Saturday 9:00 AM - 6:00 PM"
 
-#: app/templates/base.html:182
+#: app/templates/base.html:212
 msgid "RESOURCES"
 msgstr "RESOURCES"
 
-#: app/templates/base.html:184
+#: app/templates/base.html:214
 msgid "home footer"
 msgstr "Home"
 
-#: app/templates/base.html:185
+#: app/templates/base.html:215
 msgid "home about footer"
 msgstr "about us "
 
-#: app/templates/base.html:186
+#: app/templates/base.html:216
 msgid "home services footer"
 msgstr "services "
 
-#: app/templates/base.html:187
+#: app/templates/base.html:217
 msgid "home contacts footer"
 msgstr "contacts"
 
-#: app/templates/base.html:188
+#: app/templates/base.html:218
 msgid "home license footer"
 msgstr "license"
 
-#: app/templates/base.html:203
+#: app/templates/base.html:233
 msgid "obout logistic"
 msgstr ""
 "Our company ensures efficient supply chain management and adapts to market "
 "changes to guarantee the timely delivery of goods and services."
 
-#: app/templates/contacts.html:9
+#: app/templates/contacts.html:28
 msgid "Contact Us"
 msgstr "Contact Us"
 
-#: app/templates/contacts.html:15
+#: app/templates/contacts.html:34
 msgid "Phone"
 msgstr "Phone number "
 
-#: app/templates/contacts.html:21
+#: app/templates/contacts.html:40
 msgid "Working Hours"
 msgstr "Working Hours"
 
-#: app/templates/contacts.html:22 app/templates/index.html:51
+#: app/templates/contacts.html:41 app/templates/index.html:50
 msgid "Mon - Sat 9:00 AM - 6:00 PM"
 msgstr "Mon - Sat 9:00 AM - 6:00 PM"
 
-#: app/templates/contacts.html:27
+#: app/templates/contacts.html:46
 msgid "Address"
 msgstr "Address"
 
-#: app/templates/contacts.html:29 app/templates/index.html:62
+#: app/templates/contacts.html:48 app/templates/index.html:61
 msgid "Bukhara Region, Bukhara District, Mahalla Do'stlik, Buyuk Ipak Yo'li"
 msgstr "Bukhara Region, Bukhara District, Mahalla Do'stlik, Buyuk Ipak Yo'li"
 
@@ -180,15 +196,41 @@ msgid "Find out more about us"
 msgstr "Find out more about us"
 
 #: app/templates/includes/services_country.html:9
-#: app/templates/includes/services_country.html:47
+msgid "Our transport and logistics services"
+msgstr "Our transport and logistics services"
+
+#: app/templates/includes/services_country.html:10
+msgid ""
+"Compared to air freight, road freight is cheaper per kilogram and kilometer."
+" In some cases, especially over short distances, this type of transport is "
+"also more economical than rail."
+msgstr ""
+"Compared to air freight, road freight is cheaper per kilogram and kilometer."
+" In some cases, especially over short distances, this type of transport is "
+"also more economical than rail."
+
+#: app/templates/includes/services_country.html:11
+msgid ""
+"The vehicle can be slowed down, stopped or turned around at any point along "
+"the way. This is what makes this type of transport different from aviation "
+"and railways. Customers have the ability to quickly change the schedule of "
+"current deliveries"
+msgstr ""
+"The vehicle can be slowed down, stopped or turned around at any point along "
+"the way. This is what makes this type of transport different from aviation "
+"and railways. Customers have the ability to quickly change the schedule of "
+"current deliveries"
+
+#: app/templates/includes/services_country.html:19
+#: app/templates/includes/services_country.html:58
 msgid "Our services"
 msgstr "Our services"
 
-#: app/templates/includes/services_country.html:10
+#: app/templates/includes/services_country.html:20
 msgid "Asia"
 msgstr "Asia"
 
-#: app/templates/includes/services_country.html:48
+#: app/templates/includes/services_country.html:59
 msgid "Europe"
 msgstr "Europe"
 
@@ -240,7 +282,7 @@ msgstr "Procurement Manager"
 msgid "We are always ready to listen and understand your needs."
 msgstr "We are always ready to listen and understand your needs."
 
-#: app/templates/includes/testiminal.html:55
+#: app/templates/includes/testiminal.html:56
 msgid "Submit"
 msgstr "Submit"
 
@@ -256,15 +298,15 @@ msgstr "Logistics"
 msgid "h1 n2"
 msgstr "Company"
 
-#: app/templates/index.html:39
+#: app/templates/index.html:38
 msgid "Call us"
 msgstr "Call us"
 
-#: app/templates/index.html:50
+#: app/templates/index.html:49
 msgid "Open Hour"
 msgstr "Open Hour"
 
-#: app/templates/index.html:61
+#: app/templates/index.html:60
 msgid "Adderss"
 msgstr "Adderss"
 
@@ -290,19 +332,19 @@ msgstr ""
 msgid "Download PDF licenses"
 msgstr "Download PDF licenses"
 
-#: app/templates/services.html:13
+#: app/templates/services.html:30
 msgid "Our servicess"
 msgstr "Our services"
 
-#: app/templates/services.html:14
+#: app/templates/services.html:31
 msgid "Logistics company"
 msgstr "Logistics company"
 
-#: app/templates/services.html:27
+#: app/templates/services.html:44
 msgid "About our companyy"
 msgstr "About our company"
 
-#: app/templates/services.html:28
+#: app/templates/services.html:45
 msgid "text"
 msgstr ""
 "Our logistics company offers a wide range of services, including "
@@ -310,27 +352,27 @@ msgstr ""
 "and supply chain management. We guarantee the reliability and timely "
 "delivery of your goods worldwide."
 
-#: app/templates/services.html:37
+#: app/templates/services.html:54
 msgid "Our Advantages"
 msgstr "Our Advantages"
 
-#: app/templates/services.html:39
+#: app/templates/services.html:56
 msgid "Customer Support"
 msgstr "Customer Support"
 
-#: app/templates/services.html:40
+#: app/templates/services.html:57
 msgid "Global Network of Partners"
 msgstr "Global Network of Partners"
 
-#: app/templates/services.html:41
+#: app/templates/services.html:58
 msgid "Competitive Rates"
 msgstr "Competitive Rates"
 
-#: app/templates/services.html:42
+#: app/templates/services.html:59
 msgid "Timely Delivery"
 msgstr "Timely Delivery"
 
-#: app/templates/services.html:43
+#: app/templates/services.html:60
 msgid "Flexibility and Personalized Approach"
 msgstr "Flexibility and Personalized Approach"
 

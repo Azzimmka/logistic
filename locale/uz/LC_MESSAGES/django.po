@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-03 03:05-0700\n"
-"PO-Revision-Date: 2024-09-04 05:40+0000\n"
+"POT-Creation-Date: 2024-09-05 05:16-0700\n"
+"PO-Revision-Date: 2024-09-05 12:28+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,138 +19,154 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: app/models.py:7 app/models.py:23
+#: app/models.py:8 app/models.py:24
 msgid "country"
 msgstr "Мamlakat"
 
-#: app/models.py:8 app/models.py:24
+#: app/models.py:9 app/models.py:25
 msgid "description"
 msgstr "Тavsifi"
 
-#: app/models.py:15
+#: app/models.py:16
 msgid "Asian Country"
 msgstr "Мamlakat"
 
-#: app/models.py:16
+#: app/models.py:17
 msgid "Asian Countries"
 msgstr "Osiyo davlatlari"
 
-#: app/models.py:29
+#: app/models.py:30
 msgid "European Country"
 msgstr "Evropa davlati"
 
-#: app/models.py:30
+#: app/models.py:31
 msgid "European Countries"
 msgstr "Evropa davlatlari "
+
+#: app/models.py:54
+msgid "title"
+msgstr "Sarlavha "
+
+#: app/models.py:55
+msgid "name"
+msgstr "Ism"
+
+#: app/models.py:61
+msgid "Команду"
+msgstr "Jamoa"
+
+#: app/models.py:62
+msgid "Команды"
+msgstr "Jamoalar"
 
 #: app/templates/about.html:13
 msgid "About.html"
 msgstr "Biz haqimizda"
 
-#: app/templates/base.html:84
+#: app/templates/base.html:114
 msgid "home"
-msgstr "asosiy"
+msgstr "Asosiy"
 
-#: app/templates/base.html:85
+#: app/templates/base.html:115
 msgid "about"
 msgstr "biz haqimizda"
 
-#: app/templates/base.html:86
+#: app/templates/base.html:116
 msgid "services"
 msgstr "xizmatlar"
 
-#: app/templates/base.html:87
+#: app/templates/base.html:117
 msgid "contacts"
 msgstr "kontaktlar"
 
-#: app/templates/base.html:88
+#: app/templates/base.html:118
 msgid "license"
 msgstr "litsenziya"
 
-#: app/templates/base.html:106
+#: app/templates/base.html:136
 msgid "send message"
 msgstr "xabar yuborish"
 
-#: app/templates/base.html:159
+#: app/templates/base.html:189
 msgid "about footer"
 msgstr "biz haqida"
 
-#: app/templates/base.html:160
+#: app/templates/base.html:190
 msgid "compny footer"
 msgstr "kompaniya "
 
-#: app/templates/base.html:161
+#: app/templates/base.html:191
 msgid "license footer"
 msgstr "litsenziya"
 
-#: app/templates/base.html:169
+#: app/templates/base.html:199
 msgid "hour footer"
 msgstr "ish vaqti"
 
-#: app/templates/base.html:171
+#: app/templates/base.html:201
 msgid "monday footer"
 msgstr "Dushanba 9:00-18:00"
 
-#: app/templates/base.html:172
+#: app/templates/base.html:202
 msgid "tuesday-Friday footer"
 msgstr "Seshanba-Juma 9:00-18:00"
 
-#: app/templates/base.html:173
+#: app/templates/base.html:203
 msgid "saturday footer"
 msgstr "Shanba 9:00-18:00"
 
-#: app/templates/base.html:182
+#: app/templates/base.html:212
 msgid "RESOURCES"
 msgstr "RESURSLAR"
 
-#: app/templates/base.html:184
+#: app/templates/base.html:214
 msgid "home footer"
 msgstr "Asosiy "
 
-#: app/templates/base.html:185
+#: app/templates/base.html:215
 msgid "home about footer"
 msgstr "biz haqida"
 
-#: app/templates/base.html:186
+#: app/templates/base.html:216
 msgid "home services footer"
 msgstr "Xizmatlar "
 
-#: app/templates/base.html:187
+#: app/templates/base.html:217
 msgid "home contacts footer"
 msgstr "Kontaktlar "
 
-#: app/templates/base.html:188
+#: app/templates/base.html:218
 msgid "home license footer"
 msgstr "litsenziya"
 
-#: app/templates/base.html:203
+#: app/templates/base.html:233
 msgid "obout logistic"
 msgstr ""
 "Kompaniyamiz ta'minot zanjirlarini samarali boshqaradi va bozor "
 "o'zgarishlariga moslashadi, bu esa mahsulot va xizmatlarning o'z vaqtida "
 "yetkazib berilishini kafolatlaydi."
 
-#: app/templates/contacts.html:9
+#: app/templates/contacts.html:28
 msgid "Contact Us"
 msgstr "kontaktlar"
 
-#: app/templates/contacts.html:15
+#: app/templates/contacts.html:34
 msgid "Phone"
 msgstr "Telefon number  "
 
-#: app/templates/contacts.html:21
+#: app/templates/contacts.html:40
 msgid "Working Hours"
 msgstr "Ish vaqti  "
 
-#: app/templates/contacts.html:22 app/templates/index.html:51
+#: app/templates/contacts.html:41 app/templates/index.html:50
 msgid "Mon - Sat 9:00 AM - 6:00 PM"
 msgstr "Dushanba - shanba 9:00 dan 18:00 gacha"
 
-#: app/templates/contacts.html:27
+#: app/templates/contacts.html:46
 msgid "Address"
 msgstr "Manzil"
 
-#: app/templates/contacts.html:29 app/templates/index.html:62
+#: app/templates/contacts.html:48 app/templates/index.html:61
 msgid "Bukhara Region, Bukhara District, Mahalla Do'stlik, Buyuk Ipak Yo'li"
 msgstr "Buxoro viloyati, Buxoro tumani, Mahalla do'stlik, Buyuk Ipak yo'li"
 
@@ -182,15 +198,41 @@ msgid "Find out more about us"
 msgstr "Biz haqimizda ko'proq bilib oling"
 
 #: app/templates/includes/services_country.html:9
-#: app/templates/includes/services_country.html:47
+msgid "Our transport and logistics services"
+msgstr "Bizning transport va logistika xizmatlarimiz"
+
+#: app/templates/includes/services_country.html:10
+msgid ""
+"Compared to air freight, road freight is cheaper per kilogram and kilometer."
+" In some cases, especially over short distances, this type of transport is "
+"also more economical than rail."
+msgstr ""
+"Havo yuk tashishga nisbatan, yo‘l yuk tashish kilogram va kilometr uchun "
+"arzonroq. Ba'zi holatlarda, ayniqsa qisqa masofalarda, ushbu turdagi "
+"transport temir yo‘lga qaraganda ham iqtisodiyroq bo‘ladi."
+
+#: app/templates/includes/services_country.html:11
+msgid ""
+"The vehicle can be slowed down, stopped or turned around at any point along "
+"the way. This is what makes this type of transport different from aviation "
+"and railways. Customers have the ability to quickly change the schedule of "
+"current deliveries"
+msgstr ""
+"Transport vositasini har qanday nuqtada sekinlashtirish, to‘xtatish yoki "
+"yo‘naltirish mumkin. Bu transport turini aviatsiya va temir yo‘ldan ajratib "
+"turadigan jihatdir. Mijozlar mavjud yetkazib berish jadvalini tezda "
+"o‘zgartirish imkoniyatiga ega."
+
+#: app/templates/includes/services_country.html:19
+#: app/templates/includes/services_country.html:58
 msgid "Our services"
 msgstr "Bizning xizmatlarimiz"
 
-#: app/templates/includes/services_country.html:10
+#: app/templates/includes/services_country.html:20
 msgid "Asia"
 msgstr "Osiyo"
 
-#: app/templates/includes/services_country.html:48
+#: app/templates/includes/services_country.html:59
 msgid "Europe"
 msgstr "Yevropa"
 
@@ -243,7 +285,7 @@ msgid "We are always ready to listen and understand your needs."
 msgstr ""
 "Biz har doim sizning ehtiyojlaringizni tinglashga va tushunishga tayyormiz."
 
-#: app/templates/includes/testiminal.html:55
+#: app/templates/includes/testiminal.html:56
 msgid "Submit"
 msgstr "Yuborish"
 
@@ -259,15 +301,15 @@ msgstr "Logistika"
 msgid "h1 n2"
 msgstr "Kompaniyasi"
 
-#: app/templates/index.html:39
+#: app/templates/index.html:38
 msgid "Call us"
 msgstr "Bizga qo'ng'iroq qiling"
 
-#: app/templates/index.html:50
+#: app/templates/index.html:49
 msgid "Open Hour"
 msgstr "Ish vaqti "
 
-#: app/templates/index.html:61
+#: app/templates/index.html:60
 msgid "Adderss"
 msgstr "Manzil "
 
@@ -293,19 +335,19 @@ msgstr ""
 msgid "Download PDF licenses"
 msgstr "PDF litsenziyalar yuklab olish"
 
-#: app/templates/services.html:13
+#: app/templates/services.html:30
 msgid "Our servicess"
 msgstr "Bizning xizmatlarimiz"
 
-#: app/templates/services.html:14
+#: app/templates/services.html:31
 msgid "Logistics company"
 msgstr "Logistika kompaniyasi"
 
-#: app/templates/services.html:27
+#: app/templates/services.html:44
 msgid "About our companyy"
 msgstr "Kompaniyamiz haqida"
 
-#: app/templates/services.html:28
+#: app/templates/services.html:45
 msgid "text"
 msgstr ""
 "Bizning logistika kompaniyamiz xalqaro va ichki yuk tashish, bojxona "
@@ -313,27 +355,27 @@ msgstr ""
 "ko‘lamli xizmatlarni taqdim etadi. Biz sizning yuklaringizni butun dunyo "
 "bo‘ylab ishonchli va o‘z vaqtida yetkazib berishni kafolatlaymiz."
 
-#: app/templates/services.html:37
+#: app/templates/services.html:54
 msgid "Our Advantages"
 msgstr "Bizning afzalliklarimiz"
 
-#: app/templates/services.html:39
+#: app/templates/services.html:56
 msgid "Customer Support"
 msgstr "Mijozlarni qo'llab-quvvatlash"
 
-#: app/templates/services.html:40
+#: app/templates/services.html:57
 msgid "Global Network of Partners"
 msgstr "Global hamkorlar tarmog'i"
 
-#: app/templates/services.html:41
+#: app/templates/services.html:58
 msgid "Competitive Rates"
 msgstr "Raqobatbardosh tariflar"
 
-#: app/templates/services.html:42
+#: app/templates/services.html:59
 msgid "Timely Delivery"
 msgstr "O‘z vaqtida yetkazib berish"
 
-#: app/templates/services.html:43
+#: app/templates/services.html:60
 msgid "Flexibility and Personalized Approach"
 msgstr "Moslashuvchanlik va individual yondashuv"
 

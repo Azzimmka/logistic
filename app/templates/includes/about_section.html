@@ -1,31 +1,24 @@
 {% load static %}
 {% load i18n %}
-<div class="about-low-area section-padding30">
+<div class="about-low-area section-padding30" id="aboutA">
     <div class="container">
-        <div class="about-low-area padding-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="about-caption mb-50">
-                            <!-- Section Title -->
-                            <div class="section-tittle mb-35">
-                                <span>{% trans 'About our company' %}</span>
-                                <h2>{% trans 'Safe logistics and transport solutions.' %}</h2>
-                            </div>
-                            <p>{% trans 'about 1' %}</p>
-                            <p>{% trans 'about 2' %}</p>
-                            <a href="{% url 'about' %}" class="btn">{% trans 'Find out more about us' %}</a>
-                        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                <div class="about-caption">
+                    <!-- Section Title -->
+                    <div class="section-tittle mb-35">
+                        <span>{% trans 'About our company' %}</span>
+                        <h2>{% trans 'Safe logistics and transport solutions.' %}</h2>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <!-- About Images -->
-                        <div class="about-img">
-                            <div class="about-font-img">
-                                <img src="{% static 'assets/img/xv.jpg' %}" alt="Транспортировка" style="max-width: 550px; border-radius: 30px; height: 580px; margin-left: 40px;" >
-                            </div>
-        
-                        </div>
-                    </div>
+                    <p>{% trans 'about 1' %}</p>
+                    <p>{% trans 'about 2' %}</p>
+                    <a href="https://t.me/lkwservice001" class="btn">{% trans 'Find out more about us' %}</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+                <!-- About Images -->
+                <div class="about-img">
+                    <img src="{% static 'assets/img/xv.jpg' %}" alt="Транспортировка" class="img-fluid rounded" >
                 </div>
             </div>
         </div>
